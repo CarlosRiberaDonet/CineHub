@@ -1,4 +1,4 @@
-let BASE_URL = "cinehub-backend-production-a034.up.railway.app";
+const BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
 //let BASE_URL = "http://localhost:8080";
 
 // URL endpoints
