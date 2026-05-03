@@ -40,12 +40,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ==========================
   const upcomingData = await getUpcoming();
   loadMovies(
-    upcomingData.results,
-    'proximo-container',
-    'btn-upcoming-prev',
-    'btn-upcoming-next',
-    1,
-    196
+    upcomingData.results, // Lista de objetos de películas extraída de la respuesta.
+    'proximo-container', // ID del contenedor del DOM donde se inyectará el HTML.
+    'btn-upcoming-prev', // ID del botón para retroceder en el carrusel/lista.
+    'btn-upcoming-next', // del botón para avanzar en el carrusel/lista.
+    1, // Índice o página inicial de la visualización.
+    196 // Ancho en píxeles de cada elemento para calcular desplazamientos del carrusel.
   );
 
   // ==========================
