@@ -1,5 +1,5 @@
-// let BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
-let BASE_URL = "http://localhost:8080";
+let BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
+// let BASE_URL = "http://localhost:8080";
 
 // URL endpoints
 const UPCOMING_URL = `${BASE_URL}/peliculas/upcoming`; // Obtener próximos estrenos
