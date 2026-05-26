@@ -1,4 +1,5 @@
-let BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
+// let BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
+let BASE_URL = "https://cinehub-backend-7mtb.onrender.com";
 // let BASE_URL = "http://localhost:8080";
 
 // URL endpoints
@@ -46,6 +47,7 @@ export async function getTopMovies(page = 1) {
 // Obtener detalles de una película
 export async function getMovieDetails(id) {
   const res = await fetch(`${MOVIE_DETAILS_URL}/${id}`);
+  console.log(id)
   return res.json();
 }
 
