@@ -1,6 +1,6 @@
 # CineHub
 
-Aplicación web full stack para explorar películas y series con datos en tiempo real. Desarrollada como proyecto final de DAM (TFG).
+Aplicación web full stack para explorar películas y series con datos en tiempo real.
 
 El frontend consume un backend propio en Spring Boot que actúa de gateway hacia la API de TMDB, transformando las respuestas JSON en un modelo de dominio propio antes de exponerlas al cliente.
 
