@@ -3,7 +3,7 @@
 
 import { enableHorizontalScroll, enableFamousItemNavigation } from './utils.js';
 
-const BASE_URL = "https://cinehub-backend-production.up.railway.app";
+const BASE_URL = `${window.location.protocol}//${window.location.hostname}/api`;
 
 export function loadFamous() {
     const actorUrl = 'https://image.tmdb.org/t/p/w300'; // URL base para las imágenes de los actores

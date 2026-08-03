@@ -1,6 +1,4 @@
-// let BASE_URL = "https://cinehub-backend-production-a034.up.railway.app";
-let BASE_URL = "https://cinehub-backend-7mtb.onrender.com";
-// let BASE_URL = "http://localhost:8080";
+const BASE_URL = `${window.location.protocol}//${window.location.hostname}/api`;
 
 // URL endpoints
 const UPCOMING_URL = `${BASE_URL}/peliculas/upcoming`; // Obtener próximos estrenos
